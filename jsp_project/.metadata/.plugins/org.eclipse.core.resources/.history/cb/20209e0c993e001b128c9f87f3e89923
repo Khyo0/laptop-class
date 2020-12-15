@@ -1,0 +1,48 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Frame Include</title>
+	<style>
+	
+	div.header{
+		text-align: center;
+	}
+	
+	div.nav{
+		text-align: center;
+	}
+	
+	</style>
+</head>
+<body>
+
+	<div class="header">
+		<h1>include 지시어 : Header</h1>
+		<hr>
+	</div>
+	
+	<div class="nav">
+		[게임] [쇼핑] [뉴스]
+	</div>
+	
+	<div class="contents">
+		<div class="news">
+			<h3>[최신 뉴스]</h3>
+			<hr>
+			코로나 바이러스 발생 현황
+		</div>
+		<div class="shopping">
+			<h3>[쇼핑정보] 인기상품</h3>
+			<hr>
+			좋은 스마트폰
+		</div>
+	</div>
+	<div class="footer">
+		copyright 2020@
+	</div>
+
+</body>
+</html>
