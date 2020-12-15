@@ -35,7 +35,8 @@
 			</tr>
 			<tr>
 				<td></td>
-				<td><input type="submit" value="보내기"><input type="submit" value="reset"></td>
+				<td><input type="submit" value="보내기"><input
+					type="submit" value="reset"></td>
 			</tr>
 		</table>
 
