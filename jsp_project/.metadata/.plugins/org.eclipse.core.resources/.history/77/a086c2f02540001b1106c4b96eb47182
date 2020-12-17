@@ -1,0 +1,36 @@
+<%@page import="form.loginFormData"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%
+	loginFormData loginData = (loginFormData) request.getAttribute("loginData");
+%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>regView</title>
+</head>
+<body>
+	<h1>회원 작성 데이터 출력</h1>
+	<hr>
+	<table>
+		<tr>
+			<td>아이디(email)</td>
+			<td><%= loginData.getId()  %></td>
+		</tr>
+		<tr>
+			<td>비밀번호</td>
+			<td><%= loginData.getPw() %></td>
+		</tr>
+		<tr>
+			<td>이름</td>
+			<td><%= loginData.getUsername() %></td>
+		</tr>
+		<tr>
+			<td>사진</td>
+			<td><%= loginData.getUserPhoto() %></td>
+		</tr>
+	</table>
+	</form>
+</body>
+</html>

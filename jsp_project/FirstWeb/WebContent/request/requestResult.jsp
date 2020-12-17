@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Request Form</title>
+<title>Request Result</title>
 </head>
 <body>
 
@@ -25,11 +25,11 @@
 			<td>
 			
 			<%
-			 String[] interests = request.getParameterValues("interest");
+			 	String[] interests = request.getParameterValues("interest");
 			
-			for(int i=0; i<interests.length; i++){
-				out.println(interests[i]+"<br>");
-			}
+				for(int i=0; i<interests.length; i++){
+					out.println(interests[i]+"<br>");
+				}
 			%>
 
 			</td>

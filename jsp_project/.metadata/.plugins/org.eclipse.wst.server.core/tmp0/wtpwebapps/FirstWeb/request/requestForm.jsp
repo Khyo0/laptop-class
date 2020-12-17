@@ -11,7 +11,8 @@
 	<h1>Request Form</h1>
 	<hr>
 
-	<form action="requestResult.jsp" method="get">
+	<!-- <form action="requestResult.jsp" method="get"> -->
+	<form action="result.jsp" method="get">
 		<table>
 			<tr>
 				<td>이름</td>
@@ -35,8 +36,8 @@
 			</tr>
 			<tr>
 				<td></td>
-				<td><input type="submit" value="보내기"><input
-					type="submit" value="reset"></td>
+				<td><input type="submit" value="보내기">
+					<input type="reset"></td>
 			</tr>
 		</table>
 
