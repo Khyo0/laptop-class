@@ -18,6 +18,9 @@
 		<%=member.getPw()%>
 		)
 	</h3>
+	<h3>
+		<a href="loginSessionCheck.jsp">로그인 여부 체크 페이지</a>
+	</h3>
 
 </body>
 </html>
