@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,10 +8,11 @@
 </head>
 <body>
 
-	<form>
-		부서이름 : <input> <br>
-		부서위치 : <input> <br>
-		<input>
+	<form action="insert.jsp" method="post">
+		부서번호 : <input type="number" name="deptno"> <br>
+		부서이름 : <input type="text" name="dname"> <br>
+		부서위치 : <input type="text" name="loc"> <br>
+		<input type="submit">
 	</form>
 
 </body>
