@@ -4,13 +4,20 @@ package member;
 public class Member {
 
 	// 아이디, 비번, 이름, 사진
-	private String userId;  // 회원의 아이디
-	private String pw;		// 회원의 비밀번호
+	private String userId; // 회원의 아이디
+	private String pw; // 회원의 비밀번호
 	private String userName; // 회원의 이름
-	private String photo;    // 회원의 프로필 사진
+	private String photo; // 회원의 프로필 사진
 
 	// 기본 생성자 필수
 	public Member() {
+	}
+
+	public Member(String userId, String pw, String userName, String photo) {
+		this.userId = userId;
+		this.pw = pw;
+		this.userName = userName;
+		this.photo = photo;
 	}
 
 	public String getUserId() {
