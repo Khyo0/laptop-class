@@ -20,7 +20,7 @@
 		<load-on-startup>1</load-on-startup>
 	</servlet>
 
-	<!-- 필터 틍록 -->
+	<!-- 필터 등록 -->
 	<filter>
 		<filter-name>LoginCheck</filter-name>
 		<filter-class>filter.LoginCheckFilter</filter-class>
@@ -29,6 +29,11 @@
 	<filter-mapping>
 		<filter-name>LoginCheck</filter-name>
 		<url-pattern>/member/mypage/*</url-pattern>
+	</filter-mapping>
+
+	<filter-mapping>
+		<filter-name>LoginCheck</filter-name>
+		<url-pattern>/member/manager/*</url-pattern>
 	</filter-mapping>
 
 	<filter>
