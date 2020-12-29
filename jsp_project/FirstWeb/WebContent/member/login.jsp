@@ -1,5 +1,5 @@
 <%@page import="util.CookieBox"%>
-<%@page import="member.Member"%>
+<%@page import="member.model.Member"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%
@@ -17,7 +17,8 @@
 			
 		} else {
 			response.addCookie(CookieBox.createCookie("uid", userId, "/", 0));
-		}		
+		}
+		
 		
 		// session을 이용해서 로그인 처리
 		// id, pw 비교해서 같으면 로그인 성공, 다르면 실패

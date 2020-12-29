@@ -1,11 +1,11 @@
-<%@page import="member.LoginInfo"%>
+<%@page import="member.model.LoginInfo"%>
 <%@page import="jdbc.ConnectionProvider"%>
 <%@page import="java.sql.Connection"%>
 <%@page import="member.dao.MemberDao"%>
 <%@page import="util.CookieBox"%>
-<%@page import="member.Member"%>
+<%@page import="member.model.Member"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+	pageEncoding="UTF-8"%>
 <%
 		// 데이터 받기 : 아이디, 비밀번호
 		String userId = request.getParameter("userid");
@@ -20,6 +20,7 @@
 		} else {
 			response.addCookie(CookieBox.createCookie("uid", userId, "/", 0));
 		}
+		
 		
 		// session을 이용해서 로그인 처리
 		// id, pw를 조건으로  Member 테이블에서 select 한 결과가 있으면 인증 성공, 없으면 인증 실패
@@ -47,7 +48,7 @@
 		// login_view.jsp로 포워딩
 		if(loginChk){
 %>
-<jsp:forward page="loginView.jsp"/>
+<jsp:forward page="loginView.jsp" />
 <%
 		} else {
 %>

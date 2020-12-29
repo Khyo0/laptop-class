@@ -1,4 +1,4 @@
-<%@page import="member.Member"%>
+<%@page import="member.model.Member"%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="java.util.List"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
@@ -18,4 +18,5 @@
 	members.add(new Member("cool10", "0000", "COOL01", "photo10.jpg"));
 	
 	session.setAttribute("members", members);
+	
 %>

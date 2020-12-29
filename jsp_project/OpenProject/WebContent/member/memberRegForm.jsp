@@ -21,8 +21,7 @@
 		<h2 class="content_title">회원 가입 폼</h2>
 		<hr>
 		<div class="content">
-
-			<form action="memberReg2.jsp" method="post"
+			<form action="memberReg3.jsp" method="post"
 				enctype="multipart/form-data">
 				<table>
 					<tr>

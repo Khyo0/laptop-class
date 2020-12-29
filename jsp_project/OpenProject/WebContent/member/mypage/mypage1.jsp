@@ -1,4 +1,4 @@
-<%@page import="member.LoginInfo"%>
+<%@page import="member.model.LoginInfo"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%--@ include file="/include/loginCheck.jsp" --%>
@@ -25,20 +25,18 @@
 			${loginInfo} <br>
 
 			<%
-				LoginInfo loginInfo = (LoginInfo) session.getAttribute("loginInfo");
-
-				if (loginInfo != null) {
-			%>
+			LoginInfo loginInfo = (LoginInfo) session.getAttribute("loginInfo");
+		
+			if(loginInfo != null){
+		%>
 			<%-- <img alt="프로필 사진" 
-			src="<%= request.getContextPath()%>/images/<%= loginInfo.getMemberPhoto()%>"
-			height="100"
-			> --%>
+		src="<%= request.getContextPath()%>/images/<%= loginInfo.getMemberPhoto()%>"
+		height="100"
+		> --%>
 			<img alt="프로필 사진"
 				src="${pageContext.request.contextPath}/upload/member/${loginInfo.memberPhoto}"
 				height="100">
-			<%
-				}
-			%>
+			<%} %>
 
 		</div>
 	</div>
