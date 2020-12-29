@@ -3,6 +3,8 @@ C:\Users\kho3\OneDrive\Documents\GitHub\class\jsp_project\.metadata\.plugins\org
 \FirstWeb\src
 C:\Users\kho3\OneDrive\Documents\GitHub\class\jsp_project\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4062448933.index
 \FirstWeb\src
+C:\Users\kho3\OneDrive\Documents\GitHub\class\jsp_project\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2911842150.index
+\GuestBook\src
 C:\Users\kho3\OneDrive\Documents\GitHub\class\jsp_project\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\28940716.index
 \FirstWeb\src
 C:\Users\kho3\OneDrive\Documents\GitHub\class\jsp_project\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1135382215.index
