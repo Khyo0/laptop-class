@@ -42,7 +42,6 @@ public class CookieBox {
 		if(cookie==null) {
 			return null;
 		}
-
 		return URLDecoder.decode(cookie.getValue(), "utf-8");		
 	}
 

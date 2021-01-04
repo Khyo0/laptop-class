@@ -1,21 +1,21 @@
-## ë©”ì¸í˜ì´ì§€
+## ¸ŞÀÎÆäÀÌÁö
 #/index.do=membermanager.member.service.MainPageViewService
 /index.do=java.lang.String
-## ë¡œê·¸ì¸ í˜ì´ì§€
+## ·Î±×ÀÎ ÆäÀÌÁö
 #/member/loginForm.do=membermanager.member.service.MemberLoginFormService
 /member/loginForm.do=java.lang.String
 #/member/login.do=membermanager.member.service.MemberLoginService
 /member/login.do=java.lang.String
 #/member/logout.do=membermanager.member.service.MemberLogoutService
 /member/logout.do=java.lang.String
-## íšŒì›ê´€ë¦¬
+## È¸¿ø°ü¸®
 #/member/memberRegForm.do=membermanager.member.service.MemberRegFormService
 #/member/memberReg.do=membermanager.member.service.MemberRegService
-## ì•„ì´ë”” ì²´í¬ 
+## ¾ÆÀÌµğ Ã¼Å© 
 #/member/idCheck.do=membermanager.member.service.MemberIdCheckService
 ##/member/memberList.do=
 ##/member/memberEditForm.do=
 ##/member/memberEdit.do=
 ##/member/memberDelete=
-## íšŒì› ì „ìš© í˜ì´ì§€
+## È¸¿ø Àü¿ë ÆäÀÌÁö
 #/member/mypage/mypage.do=membermanager.member.service.MemberMyPageService

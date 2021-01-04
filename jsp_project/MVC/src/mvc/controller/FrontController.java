@@ -19,7 +19,6 @@ import javax.servlet.http.HttpServletResponse;
 
 import mvc.service.MemberService;
 
-
 @WebServlet(
 		urlPatterns = { "*.do" }, 
 		initParams = { 
@@ -33,10 +32,14 @@ public class FrontController extends HttpServlet {
 	private Map<String, MemberService> commands = new HashMap<String, MemberService>();
 
 	public void init(ServletConfig config) throws ServletException {
+		
 		String configfile = config.getInitParameter("config");
+		
 		Properties prop = new Properties();
+		
 		FileInputStream fis = null;
 		String configFilePath = config.getServletContext().getRealPath(configfile);
+		
 		System.out.println(configFilePath);
 
 		try {
@@ -53,28 +56,28 @@ public class FrontController extends HttpServlet {
 		Iterator itr = prop.keySet().iterator();
 		
 		while (itr.hasNext()) {
-			String command = (String) itr.next(); // ì‚¬ìš©ì ìš”ì²­ URI
-			String serviceClassName = prop.getProperty(command); // ì„œë¹„ìŠ¤ í´ë˜ìŠ¤ ì´ë¦„
+			String command = (String) itr.next(); // »ç¿ëÀÚ ¿äÃ» URI
+			String serviceClassName = prop.getProperty(command); // ¼­ºñ½º Å¬·¡½º ÀÌ¸§
 
 			System.out.println(command + ":" + serviceClassName);
 		}
 
 		while (itr.hasNext()) {
-			String command = (String) itr.next(); // ì‚¬ìš©ì ìš”ì²­ URI
-			String serviceClassName = prop.getProperty(command); // ì„œë¹„ìŠ¤ í´ë˜ìŠ¤ ì´ë¦„
+			String command = (String) itr.next(); // »ç¿ëÀÚ ¿äÃ» URI
+			String serviceClassName = prop.getProperty(command); // ¼­ºñ½º Å¬·¡½º ÀÌ¸§
 
 			System.out.println(command + ":" + serviceClassName);
 
-			// commands Map ì— ì €ì¥ <String, GuestBookService>
+			// commands Map ¿¡ ÀúÀå <String, GuestBookService>
 
-			// prop ì— ìˆëŠ” í´ë˜ìŠ¤ ì´ë¦„ìœ¼ë¡œ ì¸ìŠ¤í„´ìŠ¤ ìƒì„±
+			// prop ¿¡ ÀÖ´Â Å¬·¡½º ÀÌ¸§À¸·Î ÀÎ½ºÅÏ½º »ı¼º
 
 			try {
 				Class serviceClass = Class.forName(serviceClassName);
-				// ê°ì²´ ìƒì„±
+				// °´Ã¼ »ı¼º
 				MemberService service = (MemberService) serviceClass.newInstance();
 
-				// commands Map ì— ì €ì¥ <String, GuestBookService>
+				// commands Map ¿¡ ÀúÀå <String, GuestBookService>
 				commands.put(command, service);
 
 				System.out.println(command + " : " + service);
@@ -106,7 +109,7 @@ public class FrontController extends HttpServlet {
 
 	private void process(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		// 1. ì‚¬ìš©ì ìš”ì²­ ë¶„ì„
+		// 1. »ç¿ëÀÚ ¿äÃ» ºĞ¼®
 
 		String commandUri = request.getRequestURI(); // /guest/guestWriteForm
 
@@ -118,16 +121,16 @@ public class FrontController extends HttpServlet {
 
 		request.setCharacterEncoding("utf-8");
 
-		// 2. ì‚¬ìš©ì ìš”ì²­ì— ë§ëŠ” ëª¨ë¸ ì‹¤í–‰ ( ì„œë¹„ìŠ¤.ë©”ì„œë“œ ì‹¤í–‰ ) -> view í˜ì´ì§€ ë°˜í™˜
+		// 2. »ç¿ëÀÚ ¿äÃ»¿¡ ¸Â´Â ¸ğµ¨ ½ÇÇà ( ¼­ºñ½º.¸Ş¼­µå ½ÇÇà ) -> view ÆäÀÌÁö ¹İÈ¯
 
 		String viewPage = "/WEB-INF/view/null.jsp";
 
-		MemberService service = commands.get(commandUri); // null ê°’ì„ ë°˜í™˜í•˜ê¸°ë„ í•œë‹¤.
+		MemberService service = commands.get(commandUri); // null °ªÀ» ¹İÈ¯ÇÏ±âµµ ÇÑ´Ù.
 		if (service != null) {
 			viewPage = service.getViewName(request, response);
 		}
 
-		// 3. view ë¡œ í¬ì›Œë”©
+		// 3. view ·Î Æ÷¿öµù
 
 		RequestDispatcher dispatcher = request.getRequestDispatcher(viewPage);
 		dispatcher.forward(request, response);

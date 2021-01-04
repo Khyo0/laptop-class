@@ -20,14 +20,10 @@ public class DBCPInitListener implements ServletContextListener {
 			System.out.println("tomcat Listener 에서 데이터베이스 드라이버 로드 실패");
 			e.printStackTrace();
 		}
-
 		System.out.println("초기화 완료.");
-
 	}
 
 	@Override
 	public void contextDestroyed(ServletContextEvent contextEvent) {
-		// TODO Auto-generated method stub
-
 	}
 }

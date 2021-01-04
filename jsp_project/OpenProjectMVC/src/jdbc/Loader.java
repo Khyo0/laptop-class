@@ -22,13 +22,11 @@ public class Loader extends HttpServlet {
 		try {
 			//Class.forName("com.mysql.cj.jdbc.Driver");
 			Class.forName(driver);
-			System.out.println("Mysql 드라이버 로드 성공!");
+			System.out.println("openProject MVC : Mysql 드라이버 로드 성공!");
 
 		} catch (ClassNotFoundException e) {
 			System.out.println("Mysql 드라이버 로드 실패!");
 			e.printStackTrace();
 		}
-
 	}
-
 }

@@ -51,7 +51,6 @@ public class MemberDao {
 		/*		} catch (SQLException e) {
 			e.printStackTrace();
 		}*/
-
 		return resultCnt;
 	}
 
@@ -76,7 +75,6 @@ public class MemberDao {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
-
 		return member;		
 	}
 
@@ -96,13 +94,11 @@ public class MemberDao {
 			while(rs.next()) {
 				list.add(makeMember(rs));
 			}
-
 			rs.close();
 			pstmt.close();
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
-
 		return list;
 	}
 
@@ -132,7 +128,6 @@ public class MemberDao {
 			rs.close();
 			pstmt.close();
 		}
-
 		return memberList;
 	}
 

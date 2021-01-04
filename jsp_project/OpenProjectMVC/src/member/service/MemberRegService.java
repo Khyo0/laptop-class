@@ -158,5 +158,4 @@ public class MemberRegService {
 		return resultCnt;
 
 	}
-
 }

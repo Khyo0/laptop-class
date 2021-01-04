@@ -65,9 +65,7 @@ public class MemberListService {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-
 		request.setAttribute("listView", listView);
 
 	}
-
 }
