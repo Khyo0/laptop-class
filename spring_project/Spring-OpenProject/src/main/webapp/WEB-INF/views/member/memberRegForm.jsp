@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <title>memberRegForm</title>
 
-<link rel="styleSheet" href="${url_defaultCss}">
+<%@ include file="/WEB-INF/views/include/basicset.jsp"%>
 
 <style>
 </style>

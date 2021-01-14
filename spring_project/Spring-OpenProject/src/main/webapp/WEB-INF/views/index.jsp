@@ -1,15 +1,16 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<c:url value="/css/default.css" var="url_defaultCss" scope="application" />
+
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>index</title>
 <%-- <link rel="styleSheet"
 	href="${pageContext.request.contextPath}/css/default.css"> --%>
-<link rel="styleSheet" href="${url_defaultCss}">
+	<%-- <link rel="styleSheet" href="<c:url value="/css/default.css"/>"> --%>
+<%@ include file="/WEB-INF/views/include/basicset.jsp" %>
 <style>
 </style>
 </head>

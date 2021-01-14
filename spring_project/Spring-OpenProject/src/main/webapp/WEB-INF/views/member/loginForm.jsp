@@ -5,13 +5,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>loginForm</title>
-<link rel="styleSheet" href="${url_defaultCss}">
+<title>Insert title here</title>
+<%@ include file="/WEB-INF/views/include/basicset.jsp"%>
 <style>
 </style>
 </head>
 <body>
-
 	<%@ include file="/WEB-INF/views/include/header.jsp"%>
 	<%@ include file="/WEB-INF/views/include/nav.jsp"%>
 
