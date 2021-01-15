@@ -28,11 +28,21 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	<!-- 회원가입 -->
 	<insert id="insertMember"
 		parameterType="com.aia.op.member.domain.Member">
+
 		INSERT INTO member
-		(memberid, password, membername,
-		memberphoto)
-		VALUES
-		(#{memberid},#{password},#{membername},#{memberphoto})
+
+		<if test="memberphoto == null">
+			(memberid, password, membername)
+			VALUES
+			(#{memberid},#{password},#{membername})
+		</if>
+
+		<if test="memberphoto != null">
+			(memberid, password, membername, memberphoto)
+			VALUES
+			(#{memberid},#{password},#{membername},#{memberphoto})
+		</if>
+
 	</insert>
 
 	<!-- 로그인 -->
@@ -110,9 +120,26 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		or membername like concat('%',#{searchParam.keyword},'%')
 	</sql>
 
-
 	<delete id="deleteMemberByIdx">
 		delete from member where idx=#{idx}
 	</delete>
+
+	<select id="selectMemberByIdx" resultMap="memberListResult">
+
+		select * from member
+		where idx=#{no}
+
+	</select>
+
+	<update id="updateMember"
+		parameterType="com.aia.op.member.domain.Member">
+
+		update member
+		set membername=#{membername},
+		password=#{password},
+		memberphoto=#{memberphoto}
+		where idx=#{idx}
+
+	</update>
 
 </mapper>
