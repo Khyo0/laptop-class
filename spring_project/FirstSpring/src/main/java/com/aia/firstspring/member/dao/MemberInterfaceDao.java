@@ -1,6 +1,7 @@
 package com.aia.firstspring.member.dao;
 
 import java.util.List;
+
 import com.aia.firstspring.member.domain.Member;
 
 public interface MemberInterfaceDao {
@@ -10,5 +11,6 @@ public interface MemberInterfaceDao {
 	int insertMember(Member member);
 	int totalCnt();
 	Member selectByIdPw();
+	Member selectByIdx(int idx);
 	
 }
