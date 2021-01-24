@@ -42,7 +42,29 @@
 		<constructor-arg ref="jdbcTemplate"/> </beans:bean> <beans:bean id="memberListService" 
 		class="com.aia.firstspring.member.service.MemberListService"/> -->
 
+	<beans:bean id="mailSender"
+		class="org.springframework.mail.javamail.JavaMailSenderImpl">
+		<beans:property name="host" value="smtp.gmail.com" />
+		<beans:property name="port" value="587" />
+		<beans:property name="username"
+			value="youngee0022@gmail.com" />
+		<beans:property name="password" value="*hyoyoung" />
+		<beans:property name="defaultEncoding" value="utf-8" />
+		<beans:property name="javaMailProperties">
+			<beans:props>
+				<beans:prop key="mail.transport.protocol">smtp</beans:prop>
+				<beans:prop key="mail.smtp.auth">true</beans:prop>
+				<beans:prop key="mail.smtp.starttls.enable">true</beans:prop>
+				<beans:prop key="mail.debug">true</beans:prop>
+			</beans:props>
+		</beans:property>
+	</beans:bean>
+
+	<!-- <beans:bean id="templateEmailMessage" class="org.springframework.mail.SimpleMailMessage" 
+		p:subject="회원가입을 축하합니다." p:text="정상적인 회원가입을 위해서는 아래 링크를 클릭해주세요." /> -->
+
+
 	<context:component-scan
 		base-package="com.aia.firstspring" />
 
-</beans:beans>	
+</beans:beans>
