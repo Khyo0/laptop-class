@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="13" version="2.0">
 <workbenchAdvisor/>
-<window height="1048" width="978" x="951" y="-9">
+<window height="1030" maximized="true" width="976" x="952" y="0">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -40,6 +40,9 @@
 <filters>
 <filter element=".*" isEnabled="false"/>
 </filters>
+<expanded>
+<element path="/PEEPS"/>
+</expanded>
 </viewState>
 </view>
 <view id="com.tomato.exerd.validate.ui.ValidateView" partName="검토">
@@ -105,7 +108,7 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.11169652" ratioLeft="106" ratioRight="843" relationship="2" relative="leftFolder"/>
+<info part="org.eclipse.ui.editorss" ratio="0.15522704" ratioLeft="147" ratioRight="800" relationship="2" relative="leftFolder"/>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@1ab9dd6" ratio="0.8614379" ratioLeft="659" ratioRight="106" relationship="2" relative="org.eclipse.ui.editorss">
 <folder appearance="2" expanded="2">
 <page content="com.tomato.exerd.ui.views.thumbnail" label="LabelNotFound"/>
@@ -125,7 +128,7 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@a4c88a" ratio="0.9679912" ratioLeft="877" ratioRight="29" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@a4c88a" ratio="0.8448661" ratioLeft="757" ratioRight="139" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="com.tomato.exerd.ui.views.domain" appearance="2" expanded="2">
 <page content="com.tomato.exerd.ui.views.domain" label="도메인"/>
 <page content="com.tomato.exerd.validate.ui.ValidateView" label="검토"/>
@@ -153,8 +156,10 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tomato.exerd.editor.DiagramEditor" path="/PEEPS/PEEPS.exerd"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tomato.exerd.editor.DiagramEditor" path="/PEEPS/copy_of_copy_of_PEEPS.jpg"/>
 </editors>
-<item active="true" historyLabel="PEEPS.exerd" index="0"/>
+<item historyLabel="PEEPS.exerd" index="0"/>
+<item active="true" historyLabel="copy_of_copy_of_PEEPS.jpg" index="1"/>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>

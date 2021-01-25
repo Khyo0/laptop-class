@@ -15,14 +15,14 @@ public interface MemberDao {
 	// 로그인
 	Member selectLogin(String id, String pw);
 
-	// 총 회원 수
+	// 회원의 총 수
 	int selectTotalCount();
 
 	// 회원 리스트(페이지 번호에 맞는)
 	//List<Member> selectMemberList(int startRow, int cntPerPage);
 	List<Member> selectMemberList(Map<String , Object> param);
 
-	// 검색 회원 수
+	// 검색한 회원의 수
 	int selectSearchMemberCount(Map<String, Object> listMap);
 
 	// 회원 정보 삭제
@@ -33,5 +33,14 @@ public interface MemberDao {
 
 	// 회원 정보 update
 	int updateMember(Member member);
+
+	// id 존재 유무 확인
+	int selectMemberByIdCount(String id);
+
+	// idx, verify 조건으로 조회 
+	int selectMemberByIdxVerify(int index);
+
+	// 인증처리 verify='Y'
+	int updateMemberVerify(int idx, String code);
 	
 }

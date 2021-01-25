@@ -71,5 +71,5 @@ public class AES256Util {
 		byte[] byteStr = Base64.decodeBase64(str.getBytes());
 		return new String(c.doFinal(byteStr), "UTF-8");
 	}
-	
+
 }
