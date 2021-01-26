@@ -1,0 +1,10 @@
+#Tue Jan 26 22:12:49 KST 2021
+com.tomato.exerd.preference.PropertyPagePrefConstants.mysql.DROP_NON_UNIQUE_INDEX=false
+com.tomato.exerd.preference.PropertyPagePrefConstants.mysql.DROP_FOREIGN_KEY_CONSTRAINT=false
+com.tomato.exerd.preference.PropertyPagePrefConstants.mysql.TABLE_FEATURE_USE_OWNER_PREFIX=false
+com.tomato.exerd.preference.PropertyPagePrefConstants.mysql.DROP_UNIQUE_INDEX=false
+com.tomato.exerd.preference.PropertyPagePrefConstants.mysql.DROP_TABLE=false
+com.tomato.exerd.preference.PropertyPagePrefConstants.mysql.DROP_TRIGGER=false
+eclipse.preferences.version=1
+com.tomato.exerd.preference.PropertyPagePrefConstants.mysql.DROP_CHECK_CONSTRAINT=false
+com.tomato.exerd.preference.PropertyPagePrefConstants.mysql.DROP_PRIMARY_KEY_CONSTRAINT=false

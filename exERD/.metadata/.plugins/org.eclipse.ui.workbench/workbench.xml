@@ -11,11 +11,12 @@
 <coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="103" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="com.tomato.devkit.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="57" y="22"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="57" y="22"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="122" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -30,8 +31,8 @@
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="com.tomato.exerd.editor.DiagramEditor" name="copy_of_copy_of_PEEPS.jpg" partName="copy_of_copy_of_PEEPS.jpg" path="C:/Users/kho3/OneDrive/Documents/GitHub/class/exERD/PEEPS/copy_of_copy_of_PEEPS.jpg" title="copy_of_copy_of_PEEPS.jpg" tooltip="PEEPS/copy_of_copy_of_PEEPS.jpg" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PEEPS/copy_of_copy_of_PEEPS.jpg"/>
+<editor activePart="true" focus="true" id="com.tomato.exerd.editor.DiagramEditor" name="PEEPS.exerd" partName="PEEPS.exerd" path="C:/Users/kho3/OneDrive/Documents/GitHub/class/exERD/PEEPS/PEEPS.exerd" title="PEEPS.exerd" tooltip="PEEPS/PEEPS.exerd" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PEEPS/PEEPS.exerd"/>
 </editor>
 </editors>
 <views>
@@ -43,6 +44,9 @@
 <expanded>
 <element path="/PEEPS"/>
 </expanded>
+<selection>
+<element path="/PEEPS/edit_PEEPS.exerd"/>
+</selection>
 </viewState>
 </view>
 <view id="com.tomato.exerd.validate.ui.ValidateView" partName="검토">
@@ -108,7 +112,7 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.15522704" ratioLeft="147" ratioRight="800" relationship="2" relative="leftFolder"/>
+<info part="org.eclipse.ui.editorss" ratio="0.18124673" ratioLeft="346" ratioRight="1563" relationship="2" relative="leftFolder"/>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@1ab9dd6" ratio="0.8614379" ratioLeft="659" ratioRight="106" relationship="2" relative="org.eclipse.ui.editorss">
 <folder appearance="2" expanded="2">
 <page content="com.tomato.exerd.ui.views.thumbnail" label="LabelNotFound"/>
@@ -128,7 +132,7 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@a4c88a" ratio="0.8448661" ratioLeft="757" ratioRight="139" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@a4c88a" ratio="0.9132883" ratioLeft="811" ratioRight="77" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="com.tomato.exerd.ui.views.domain" appearance="2" expanded="2">
 <page content="com.tomato.exerd.ui.views.domain" label="도메인"/>
 <page content="com.tomato.exerd.validate.ui.ValidateView" label="검토"/>
@@ -157,9 +161,29 @@
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tomato.exerd.editor.DiagramEditor" path="/PEEPS/PEEPS.exerd"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tomato.exerd.editor.DiagramEditor" path="/PEEPS/copy_of_copy_of_PEEPS.jpg"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tomato.exerd.editor.DiagramEditor" path="/PEEPS/PEEPS.exerd"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/PEEPS/PEEPS_수정.png"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tomato.exerd.editor.DiagramEditor" path="/PEEPS/edit_PEEPS.exerd"/>
 </editors>
 <item historyLabel="PEEPS.exerd" index="0"/>
-<item active="true" historyLabel="copy_of_copy_of_PEEPS.jpg" index="1"/>
+<item historyLabel="copy_of_copy_of_PEEPS.jpg" index="1"/>
+<item historyLabel="PEEPS.exerd" index="2"/>
+<item historyLabel="PEEPS_수정.png" index="3">
+<position/>
+</item>
+<item historyLabel="PEEPS.exerd" index="2"/>
+<item historyLabel="edit_PEEPS.exerd" index="4"/>
+<item historyLabel="PEEPS.exerd" index="2"/>
+<item historyLabel="edit_PEEPS.exerd" index="4"/>
+<item historyLabel="PEEPS.exerd" index="2"/>
+<item historyLabel="edit_PEEPS.exerd" index="4"/>
+<item historyLabel="PEEPS.exerd" index="2"/>
+<item historyLabel="edit_PEEPS.exerd" index="4"/>
+<item historyLabel="PEEPS.exerd" index="2"/>
+<item historyLabel="edit_PEEPS.exerd" index="4"/>
+<item historyLabel="PEEPS.exerd" index="2"/>
+<item historyLabel="edit_PEEPS.exerd" index="4"/>
+<item active="true" historyLabel="PEEPS.exerd" index="2"/>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
@@ -177,6 +201,12 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tomato.exerd.editor.DiagramEditor" name="edit_PEEPS.exerd" tooltip="PEEPS/edit_PEEPS.exerd">
+<persistable path="/PEEPS/edit_PEEPS.exerd"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="PEEPS_수정.png" tooltip="PEEPS/PEEPS_수정.png">
+<persistable path="/PEEPS/PEEPS_수정.png"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tomato.exerd.editor.DiagramEditor" name="PEEPS.exerd" tooltip="PEEPS/PEEPS.exerd">
 <persistable path="/PEEPS/PEEPS.exerd"/>
 </file>
