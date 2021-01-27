@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="13" version="2.0">
 <workbenchAdvisor/>
-<window height="1030" maximized="true" width="976" x="952" y="0">
+<window height="1048" width="978" x="951" y="-9">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -31,8 +31,8 @@
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="com.tomato.exerd.editor.DiagramEditor" name="PEEPS.exerd" partName="PEEPS.exerd" path="C:/Users/kho3/OneDrive/Documents/GitHub/class/exERD/PEEPS/PEEPS.exerd" title="PEEPS.exerd" tooltip="PEEPS/PEEPS.exerd" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PEEPS/PEEPS.exerd"/>
+<editor activePart="true" focus="true" id="com.tomato.exerd.editor.DiagramEditor" name="PEEPS_0127.exerd" partName="PEEPS_0127.exerd" path="C:/Users/kho3/OneDrive/Documents/GitHub/class/exERD/PEEPS/PEEPS_0127.exerd" title="PEEPS_0127.exerd" tooltip="PEEPS/PEEPS_0127.exerd" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PEEPS/PEEPS_0127.exerd"/>
 </editor>
 </editors>
 <views>
@@ -44,9 +44,6 @@
 <expanded>
 <element path="/PEEPS"/>
 </expanded>
-<selection>
-<element path="/PEEPS/edit_PEEPS.exerd"/>
-</selection>
 </viewState>
 </view>
 <view id="com.tomato.exerd.validate.ui.ValidateView" partName="검토">
@@ -112,7 +109,7 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.18124673" ratioLeft="346" ratioRight="1563" relationship="2" relative="leftFolder"/>
+<info part="org.eclipse.ui.editorss" ratio="0.22128557" ratioLeft="210" ratioRight="739" relationship="2" relative="leftFolder"/>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@1ab9dd6" ratio="0.8614379" ratioLeft="659" ratioRight="106" relationship="2" relative="org.eclipse.ui.editorss">
 <folder appearance="2" expanded="2">
 <page content="com.tomato.exerd.ui.views.thumbnail" label="LabelNotFound"/>
@@ -160,30 +157,64 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tomato.exerd.editor.DiagramEditor" path="/PEEPS/PEEPS.exerd"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tomato.exerd.editor.DiagramEditor" path="/PEEPS/copy_of_copy_of_PEEPS.jpg"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tomato.exerd.editor.DiagramEditor" path="/PEEPS/PEEPS.exerd"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/PEEPS/PEEPS_수정.png"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tomato.exerd.editor.DiagramEditor" path="/PEEPS/edit_PEEPS.exerd"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tomato.exerd.editor.DiagramEditor" path="/PEEPS/REST.exerd"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tomato.exerd.editor.DiagramEditor" path="/PEEPS/0127.exerd"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/PEEPS/REST_0127"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tomato.exerd.editor.DiagramEditor" path="/PEEPS/REST_0127.exerd"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tomato.exerd.editor.DiagramEditor" path="/PEEPS/PEEPS_0127.exerd"/>
 </editors>
-<item historyLabel="PEEPS.exerd" index="0"/>
-<item historyLabel="copy_of_copy_of_PEEPS.jpg" index="1"/>
-<item historyLabel="PEEPS.exerd" index="2"/>
-<item historyLabel="PEEPS_수정.png" index="3">
+<item historyLabel="REST.exerd" index="1"/>
+<item historyLabel="0127.exerd" index="2"/>
+<item historyLabel="REST.exerd" index="1"/>
+<item historyLabel="REST_0127" index="3">
 <position/>
 </item>
-<item historyLabel="PEEPS.exerd" index="2"/>
-<item historyLabel="edit_PEEPS.exerd" index="4"/>
-<item historyLabel="PEEPS.exerd" index="2"/>
-<item historyLabel="edit_PEEPS.exerd" index="4"/>
-<item historyLabel="PEEPS.exerd" index="2"/>
-<item historyLabel="edit_PEEPS.exerd" index="4"/>
-<item historyLabel="PEEPS.exerd" index="2"/>
-<item historyLabel="edit_PEEPS.exerd" index="4"/>
-<item historyLabel="PEEPS.exerd" index="2"/>
-<item historyLabel="edit_PEEPS.exerd" index="4"/>
-<item historyLabel="PEEPS.exerd" index="2"/>
-<item historyLabel="edit_PEEPS.exerd" index="4"/>
-<item active="true" historyLabel="PEEPS.exerd" index="2"/>
+<item historyLabel="REST.exerd" index="1"/>
+<item historyLabel="REST_0127.exerd" index="4"/>
+<item historyLabel="REST.exerd" index="1"/>
+<item historyLabel="REST_0127.exerd" index="4"/>
+<item historyLabel="0127.exerd" index="2"/>
+<item historyLabel="PEEPS.exerd" index="0"/>
+<item historyLabel="0127.exerd" index="2"/>
+<item historyLabel="REST.exerd" index="1"/>
+<item historyLabel="REST_0127.exerd" index="4"/>
+<item historyLabel="REST.exerd" index="1"/>
+<item historyLabel="REST_0127.exerd" index="4"/>
+<item historyLabel="REST.exerd" index="1"/>
+<item historyLabel="REST_0127.exerd" index="4"/>
+<item historyLabel="REST.exerd" index="1"/>
+<item historyLabel="REST_0127.exerd" index="4"/>
+<item historyLabel="REST.exerd" index="1"/>
+<item historyLabel="REST_0127.exerd" index="4"/>
+<item historyLabel="REST.exerd" index="1"/>
+<item historyLabel="REST_0127.exerd" index="4"/>
+<item historyLabel="0127.exerd" index="2"/>
+<item historyLabel="REST_0127.exerd" index="4"/>
+<item historyLabel="REST.exerd" index="1"/>
+<item historyLabel="0127.exerd" index="2"/>
+<item historyLabel="REST_0127.exerd" index="4"/>
+<item historyLabel="REST.exerd" index="1"/>
+<item historyLabel="0127.exerd" index="2"/>
+<item historyLabel="REST_0127.exerd" index="4"/>
+<item historyLabel="0127.exerd" index="2"/>
+<item historyLabel="REST_0127.exerd" index="4"/>
+<item historyLabel="0127.exerd" index="2"/>
+<item historyLabel="REST_0127.exerd" index="4"/>
+<item historyLabel="0127.exerd" index="2"/>
+<item historyLabel="REST_0127.exerd" index="4"/>
+<item historyLabel="REST.exerd" index="1"/>
+<item historyLabel="REST_0127.exerd" index="4"/>
+<item historyLabel="REST.exerd" index="1"/>
+<item historyLabel="REST_0127.exerd" index="4"/>
+<item historyLabel="REST.exerd" index="1"/>
+<item historyLabel="REST_0127.exerd" index="4"/>
+<item historyLabel="REST.exerd" index="1"/>
+<item historyLabel="REST_0127.exerd" index="4"/>
+<item historyLabel="REST.exerd" index="1"/>
+<item historyLabel="REST_0127.exerd" index="4"/>
+<item historyLabel="REST.exerd" index="1"/>
+<item historyLabel="REST_0127.exerd" index="4"/>
+<item active="true" historyLabel="PEEPS_0127.exerd" index="5"/>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
@@ -201,8 +232,20 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tomato.exerd.editor.DiagramEditor" name="REST_0127.exerd" tooltip="PEEPS/REST_0127.exerd">
+<persistable path="/PEEPS/REST_0127.exerd"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="REST_0127" tooltip="PEEPS/REST_0127">
+<persistable path="/PEEPS/REST_0127"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tomato.exerd.editor.DiagramEditor" name="0127.exerd" tooltip="PEEPS/0127.exerd">
+<persistable path="/PEEPS/0127.exerd"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tomato.exerd.editor.DiagramEditor" name="edit_PEEPS.exerd" tooltip="PEEPS/edit_PEEPS.exerd">
 <persistable path="/PEEPS/edit_PEEPS.exerd"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.tomato.exerd.editor.DiagramEditor" name="member.exerd" tooltip="PEEPS/member.exerd">
+<persistable path="/PEEPS/member.exerd"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="PEEPS_수정.png" tooltip="PEEPS/PEEPS_수정.png">
 <persistable path="/PEEPS/PEEPS_수정.png"/>

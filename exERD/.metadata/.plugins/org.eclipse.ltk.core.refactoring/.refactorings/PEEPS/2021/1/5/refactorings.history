@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="자원 &apos;PEEPS/member.exerd&apos;을(를) &apos;REST.exerd&apos;(으)로 이름 바꾸기" description="&apos;member.exerd&apos; 자원 이름 바꾸기" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="member.exerd" name="REST.exerd" stamp="1611737967999" updateReferences="true"/>&#x0A;<refactoring comment="자원 &apos;PEEPS/0127.exerd&apos;을(를) &apos;PEEPS_0127.exerd&apos;(으)로 이름 바꾸기" description="&apos;0127.exerd&apos; 자원 이름 바꾸기" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="0127.exerd" name="PEEPS_0127.exerd" stamp="1611750785509" updateReferences="true"/>
+</session>
