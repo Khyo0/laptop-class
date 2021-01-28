@@ -26,6 +26,9 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	</resultMap>
 
 
+	<select id="selectAllMemberList" resultMap="memberListResult">
+		select * from member
+	</select>
 
 
 	<!-- 회원가입 -->
@@ -51,6 +54,11 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 
 	</insert>
 
+
+	<!-- member_count update -->
+	<update id="memberCountUpdate">
+		update member_count set membercount = membercount+1
+	</update>
 
 
 

@@ -17,6 +17,7 @@
 <body class="bg-light">
 
 
+
 	<%@ include file="/WEB-INF/views/include/header.jsp"%>
 
 	<%@ include file="/WEB-INF/views/include/nav.jsp"%>
@@ -37,6 +38,17 @@
 
 	<%@ include file="/WEB-INF/views/include/footer.jsp"%>
 
+	<script>
+<c:if test="${param.type eq 'delete'}">
+<c:if test="${param.result eq 'ok'}">
+alert('로그아웃되었습니다.');	
+</c:if>
+<c:if test="${param.result ne 'ok'}">
+alert('처리과정에서 오류가 발생했습니다.');
+</c:if>
+</c:if>
+	
+</script>
 
 </body>
 </html>
