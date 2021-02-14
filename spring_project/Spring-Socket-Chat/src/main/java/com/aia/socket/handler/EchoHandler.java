@@ -67,7 +67,7 @@ public class EchoHandler extends TextWebSocketHandler {
 		String chatMember = (String) session.getAttributes().get("user");
 		sessionList.remove(session);
 		logger.info("{} 연결이 끊김", session.getId()+chatMember);
-		System.out.println("체팅 퇴장 : " + chatMember);
+		System.out.println("채팅 퇴장 : " + chatMember);
 	}
 
 }

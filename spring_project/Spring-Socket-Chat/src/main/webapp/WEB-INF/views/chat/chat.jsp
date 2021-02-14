@@ -81,7 +81,7 @@
 		
 		var msg = {
 			user : '${user}',
-			to : 'jin', // 현재 페이지 작성자의 id를 작성
+			to : 'seoa', // 현재 페이지 작성자의 id를 작성
 			articleId : '${articleId}',
 			articleOwner : '${articleOwner}',
 			message : $("#message").val()
