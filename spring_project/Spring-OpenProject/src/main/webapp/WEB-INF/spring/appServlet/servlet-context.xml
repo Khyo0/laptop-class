@@ -71,7 +71,13 @@
 	<tx:annotation-driven />
 	<!-- <tx:annotation-driven transaction-manager="transactionManager" /> -->
 
-
+	<!-- Redis -->
+	<beans:bean id="jedisConnFactory"
+		class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory"
+		p:usePool="true" p:hostName="localhost" p:port="6379" />
+	<beans:bean id="redisTemplate"
+		class="org.springframework.data.redis.core.RedisTemplate"
+		p:connectionFactory-ref="jedisConnFactory" />
 
 
 	<context:component-scan
